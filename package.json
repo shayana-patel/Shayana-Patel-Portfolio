@@ -1,0 +1,61 @@
+{
+  "name": "shayana-patel-portfolio",
+  "version": "0.1.0",
+  "description": "Shayana Patel Portfolio",
+  "repository": "https://github.com/shayana-patel/Shayana-Patel-Portfolio",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "npm run webpack -- --watch",
+    "dev:server": "nodemon --watch server server/index.js",
+    "webpack": "webpack --config ./client/webpack.config.js",
+    "knex": "knex --knexfile ./server/db/knexfile.js",
+    "lint": "eslint --ext .js,.jsx .",
+    "test": "jest",
+    "test:watch": "jest --noStackTrace --watchAll",
+    "build": "run-p build:client build:server",
+    "build:client": "npm run webpack -- --mode production",
+    "build:server": "npm run knex -- migrate:latest",
+    "h:deploy": "git push heroku main",
+    "h:migrate": "heroku run npm run knex migrate:latest",
+    "h:rollback": "heroku run npm run knex migrate:rollback",
+    "h:seed": "heroku run npm run knex seed:run"
+  },
+  "keywords": [
+    "fullstack"
+  ],
+  "author": "EDA",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "eda",
+    "ignorePatterns": [
+      "bundle.js"
+    ]
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/setup-dotenv.js"
+    ]
+  },
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "homepage": "https://github.com/shayana-patel/Shayana-Patel-Portfolio#readme"
+}
