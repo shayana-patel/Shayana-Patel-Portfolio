@@ -1,2 +1,16 @@
+# Node modules
 node_modules
 package-lock.json
+
+# Logs
+*.log
+
+# Webpack bundle
+server/public/bundle.js
+server/public/bundle.js.map
+
+# Generated css
+
+
+# Jest coverage report
+coverage/*
