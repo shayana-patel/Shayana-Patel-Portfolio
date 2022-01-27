@@ -20,19 +20,17 @@
   color: #fc5c3c !important;
 }
 
-#profile-img {
-  display: block;
-  border: 2px solid #fc5c3c;
-  width: 350;
-  height: 350;
-}
-
 .img-responsive {
+  display: block;
   width: 100%;
 }
 
 #contact {
   text-align: center justify;
+}
+
+.section-title {
+  text-decoration: underline #fc5c3c;
 }
 
 .App {

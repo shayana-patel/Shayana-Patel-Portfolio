@@ -5,7 +5,7 @@ const Portfolio = () => {
     <>
       <section id='portfolio'>
         <div className="container-fluid bg-3 text-center">    
-          <h1 className="margin">Recent Work</h1><br />
+          <h1 className="margin section-title">Recent Work</h1><br />
           <div className="row">
             <div className="col-sm-4">
               <img src="https://i.picsum.photos/id/398/360/360.jpg?hmac=F0XPMiqlGExUEWgJFVCCmiYekW_mMzj9vGuAlRCBt4c" className="img-responsive margin" alt="Placeholder 1" />
