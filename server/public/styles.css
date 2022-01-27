@@ -50,6 +50,12 @@ ul {
   z-index: 1030;
 }
 
+#footer {
+  background-color: #f5a068;
+  margin: 0;
+  line-height: 5vw;
+}
+
 #about {
   padding: 60px;
 }
