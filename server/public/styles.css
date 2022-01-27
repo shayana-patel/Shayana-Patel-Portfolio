@@ -20,18 +20,11 @@
   color: #fc5c3c !important;
 }
 
-#about {
-  padding: 60px;
-}
-
-.img-circle {
-  display: inline;
+#profile-img {
+  display: block;
+  border: 2px solid #fc5c3c;
   width: 350;
   height: 350;
-}
-
-#portfolio {
-  padding: 60px 0;
 }
 
 .img-responsive {
@@ -39,7 +32,6 @@
 }
 
 #contact {
-  padding: 60px;
   text-align: center justify;
 }
 
@@ -49,6 +41,7 @@
   font-family: "Josefin Sans", sans-serif;
   color: #033a49;
   padding: 60px 0;
+  width: 100%;
 }
 
 #home {
@@ -58,15 +51,10 @@
 body {
   font: 20px "Josefin Sans", sans-serif;
   line-height: 1.8;
-  color: #f5f6f7;
-}
-
-.margin {
-  margin-bottom: 45px;
-}
-
-h3 {
-  font-size: 24px;
+  color: #fff5f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 p {
@@ -78,10 +66,6 @@ p {
     -webkit-flex-direction: column;
     flex-direction: column;
     padding: 60px;
-  }
-
-  h3 {
-    font-size: 1.5vw;
   }
 
   p {

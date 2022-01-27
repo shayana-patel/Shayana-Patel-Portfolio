@@ -23,12 +23,23 @@
 //   --default-font-family: "Open Sans", sans-serif;
 // }
 
+// * {
+//   box-sizing: inherit;
+// }
+
+// html, body {
+//   margin:0;
+//   padding:0;
+//   overflow-x:hidden;
+// }
+
 .App {
   text-align: center;
   background-color: #fff5f0;
   font-family: "Josefin Sans", sans-serif;
   color: #033a49;
   padding: 60px 0;
+  width: 100%;
 }
 
 #home {
@@ -38,16 +49,15 @@
 body {
   font: 20px 'Josefin Sans', sans-serif;
   line-height: 1.8;
-  color: #f5f6f7;
+  color: #fff5f0;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
 }
 
-.margin {
-  margin-bottom: 45px;
-}
-
-h3 {
-  font-size: 24px;
-}
+// .margin {
+//   margin-bottom: 45px;
+// }
 
 p {
   font-size: 16px;
@@ -59,10 +69,6 @@ p {
     -webkit-flex-direction: column;
     flex-direction: column;
     padding: 60px;
-  }
-
-  h3 {
-    font-size: 1.5vw;
   }
 
   p {
