@@ -3,9 +3,13 @@ import React from 'react'
 const Portfolio = () => {
   return (
     <>
-      <div>
-        <h1>Portfolio Page</h1>
-      </div>
+      <section id='portfolio'>
+        <div className='container'>
+          <div className='portfolio-title'>
+            <h1>Portfolio Page</h1>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

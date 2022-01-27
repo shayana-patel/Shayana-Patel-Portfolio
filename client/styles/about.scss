@@ -1,0 +1,31 @@
+#about {
+  padding: 60px;
+}
+
+.container {
+  padding: 60px;
+  background-color: var(--tertiary-color);
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap; 
+}
+
+img {
+  width: 100%;
+}
+.article-1 {
+  width: max-content;
+  padding-left: 60px;
+  float: left;
+}
+
+
+.article-2 {
+  width: 60%;
+  float: right;
+  padding-left: 60px;
+  padding-right: 60px;
+}

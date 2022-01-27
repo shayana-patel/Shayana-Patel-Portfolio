@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@500;900&display=swap');
 
 // Import custom variables and Bulma overides
-@import './navbar.scss';
-// @import './form.scss';
-// @import './travels.scss';
+@import './header-footer.scss';
+@import './about.scss';
+@import './portfolio.scss';
+@import './contact.scss';
 
 
 // Import only what you need from Bulma
@@ -15,7 +16,8 @@
   --primary-color: #fff5f0;
   --secondary-color: #033a49;
   --tertiary-color: #4b8cc2;
-  --accent-color: #ec5002;
+  --accent-color: #fc5c3c;
+  // --accent-color: #ec5002;
   --heading-font-family: "Playfair Display", serif;
   --subheading-font-family: "Josefin Sans", sans-serif;
   --default-font-family: "Open Sans", sans-serif;
@@ -25,6 +27,9 @@
 //   box-sizing: border-box;
 // }
 
+.App {
+  text-align: center;
+}
 
 body {
   font-family: var(--subheading-font-family);
@@ -32,7 +37,10 @@ body {
   // background-color: #ffe1cc;
   // background-color: #fed9ba;
   color: var(--secondary-color);
+  margin: 0;
+  display: block;
 }
+
 
 // body {
 //   /* background-color: #ffe1cc; */
