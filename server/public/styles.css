@@ -6,132 +6,87 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss (1) ***!
   \***********************************************************************************************************************/
 .navbar {
-  background-color: #f5a068 !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-@media (max-width: 767px) {
-  .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: var(--tertiary-color) !important;
-  }
-}
-nav {
-  text-align: center;
-}
-
-#header h1 {
-  font-family: var(--heading-font-family);
-  font-size: 26px;
-  font-weight: 900;
-  letter-spacing: 3px;
-}
-
-ul {
-  display: flex;
-}
-
-.navbar li {
-  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
   font-size: 20px;
-  padding-left: 30px;
-  flex-wrap: wrap;
+  letter-spacing: 5px;
+  display: fixed;
 }
 
-#header {
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-#footer {
-  background-color: #f5a068;
-  margin: 0;
-  line-height: 5vw;
+.navbar-nav li a:hover {
+  color: #fc5c3c !important;
 }
 
 #about {
   padding: 60px;
 }
 
-.container {
-  padding: 60px;
-  background-color: var(--tertiary-color);
-}
-
-article {
-  display: flex;
-  flex-direction: row;
-}
-
-img {
-  width: 100%;
-}
-
-.article-1 {
-  width: max-content;
-  padding-left: 60px;
-  float: left;
-}
-
-.article-2 {
-  width: 60%;
-  float: right;
-  padding-left: 60px;
-  padding-right: 60px;
+.img-circle {
+  display: inline;
+  width: 350;
+  height: 350;
 }
 
 #portfolio {
   padding: 60px 0;
 }
 
-#contact {
-  padding: 60px 0;
+.img-responsive {
+  width: 100%;
 }
 
-:root {
-  --primary-color: #fff5f0;
-  --secondary-color: #033a49;
-  --tertiary-color: #4b8cc2;
-  --accent-color: #fc5c3c;
-  --heading-font-family: "Playfair Display", serif;
-  --subheading-font-family: "Josefin Sans", sans-serif;
-  --default-font-family: "Open Sans", sans-serif;
+#contact {
+  padding: 60px;
+  text-align: center justify;
 }
 
 .App {
   text-align: center;
+  background-color: #fff5f0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #033a49;
+  padding: 60px 0;
+}
+
+#home {
+  padding: 60px;
 }
 
 body {
-  font-family: var(--subheading-font-family);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  margin: 0;
-  display: block;
+  font: 20px "Josefin Sans", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
-a {
-  text-decoration: none;
-  /* color: #193668; */
-  color: #033f50;
-  font-family: "Playfair Display", serif;
+.margin {
+  margin-bottom: 45px;
 }
 
-a:hover {
-  text-decoration: none;
-  color: var(--accent-color);
+h3 {
+  font-size: 24px;
 }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-nav .nav-item:hover .nav-link {
-  color: var(--accent-color);
+p {
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 60px;
+  }
+
+  h3 {
+    font-size: 1.5vw;
+  }
+
+  p {
+    font-size: 1.2vw;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map*/

@@ -1,38 +1,11 @@
 #about {
   padding: 60px;
+  // text-align: center justify;
 }
 
-.container {
-  padding: 60px;
-  background-color: var(--tertiary-color);
-}
-
-article {
-  display: flex;
-  flex-direction: row;
-  // flex-wrap: wrap; 
-}
-
-// @media (max-width: 767px) {
-//   article {
-//     flex-wrap: flex-wrap
-//   }
-// }
-
-img {
-  width: 100%;
-}
-
-.article-1 {
-  width: max-content;
-  padding-left: 60px;
-  float: left;
-}
-
-
-.article-2 {
-  width: 60%;
-  float: right;
-  padding-left: 60px;
-  padding-right: 60px;
+.img-circle {
+  display: inline;
+  // display: inline-flex;
+  width: 350;
+  height: 350; 
 }

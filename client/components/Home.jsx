@@ -7,10 +7,11 @@ const Home = () => {
   return (
     <>
       <section id='home'>
-        <h1>Hi there!</h1>
-        <h1>I'm Shayana Patel</h1>
-        <p>Full Stack Software Dveloper</p>
-        <p>Welcome to my website</p>
+        <div className="container-fluid bg-1 text-center">
+          <h1>Shayana Patel</h1>
+          <h2>Full Stack Software Dveloper</h2>
+          <h3>Welcome to my website</h3>
+        </div>
       </section>
     </>
   )

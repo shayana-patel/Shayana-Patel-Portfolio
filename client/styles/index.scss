@@ -12,59 +12,60 @@
 
 // Import only what you need from Bulma
 
-:root {
-  --primary-color: #fff5f0;
-  --secondary-color: #033a49;
-  --tertiary-color: #4b8cc2;
-  --accent-color: #fc5c3c;
-  // --accent-color: #ec5002;
-  --heading-font-family: "Playfair Display", serif;
-  --subheading-font-family: "Josefin Sans", sans-serif;
-  --default-font-family: "Open Sans", sans-serif;
-}
-
-// * {
-//   box-sizing: border-box;
+// :root {
+//   --primary-color: #fff5f0;
+//   --secondary-color: #033a49;
+//   --tertiary-color: #4b8cc2;
+//   --accent-color: #fc5c3c;
+//   // --accent-color: #ec5002;
+//   --heading-font-family: "Playfair Display", serif;
+//   --subheading-font-family: "Josefin Sans", sans-serif;
+//   --default-font-family: "Open Sans", sans-serif;
 // }
 
 .App {
   text-align: center;
+  background-color: #fff5f0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #033a49;
+  padding: 60px 0;
+}
+
+#home {
+  padding: 60px;
 }
 
 body {
-  font-family: var(--subheading-font-family);
-  background-color: var(--primary-color);
-  // background-color: #ffe1cc;
-  // background-color: #fed9ba;
-  color: var(--secondary-color);
-  margin: 0;
-  display: block;
+  font: 20px 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
 }
 
 
-// body {
-//   /* background-color: #ffe1cc; */
-//   /* background-color: #fed9ba; */
-//   /* color: #fc5c3c; */
-//   background-color: #FFE0AE;
-//   color: #ec5002;
-//   font-family: 'Josefin Sans', sans-serif;
-// }
+@media (min-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 60px;
+  }
 
-a {
-  text-decoration: none;
-  /* color: #193668; */
-  color: #033f50;
-  font-family: 'Playfair Display', serif;
-}
+  h3 {
+    font-size: 1.5vw;
+  }
 
-a:hover {
-  text-decoration: none;
-  color: var(--accent-color);
-}
-
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-nav .nav-item:hover .nav-link {
-  color: var(--accent-color);
+  p {
+    font-size: 1.2vw;
+  }
 }
