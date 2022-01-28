@@ -50,6 +50,16 @@
   width: 100%;
 }
 
+.project-description {
+  padding: 0px;
+}
+
+.col-sm-4 {
+  margin: 2px;
+  padding-top: 10px;
+  border: 1px #fc5c3c solid;
+}
+
 #contact {
   padding: 100px 0;
   height: 100vh;
@@ -113,14 +123,6 @@ p {
 
   p {
     font-size: 1.2vw;
-  }
-
-  #about {
-    height: 100vh;
-  }
-
-  #portfolio {
-    height: 100vh;
   }
 }
 
