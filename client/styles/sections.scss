@@ -1,7 +1,22 @@
-// ABOUT //
+// HOME //
+#home {
+  padding: 60px 0;
+}
 
+// ABOUT //
+ #about {
+   padding: 60px 0;
+ }
+
+//  .img-fluid {
+//    display: block;
+//  }
 
 // PORTFOLIO //
+
+#portfolio {
+  padding: 60px 0;
+}
 
 .img-responsive {
   display: block;
@@ -11,7 +26,8 @@
 // CONTACT //
 
 #contact {
-  text-align: center justify;
+  padding: 60px 0;
+  // text-align: center justify;
 }
 
 .section-title {

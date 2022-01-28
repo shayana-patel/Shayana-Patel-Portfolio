@@ -21,10 +21,6 @@
 //   --default-font-family: "Open Sans", sans-serif;
 // }
 
-// * {
-//   box-sizing: inherit;
-// }
-
 // html, body {
 //   margin:0;
 //   padding:0;
@@ -38,7 +34,17 @@
   color: #033a49;
   padding: 60px 0;
   width: 100%;
+  height: auto;
 }
+
+.full-height {
+  height: 100%;
+  background-color: #fff5f0;
+}
+
+// html, body {
+//   height: 100%;
+// }
 
 #home {
   padding: 60px;
@@ -53,9 +59,9 @@ body {
   overflow-x:hidden;
 }
 
-// .margin {
-//   margin-bottom: 45px;
-// }
+.margin {
+  margin-bottom: 45px;
+}
 
 p {
   font-size: 16px;
@@ -66,7 +72,7 @@ p {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
-    padding: 60px;
+    // padding: 60px;
   }
 
   p {

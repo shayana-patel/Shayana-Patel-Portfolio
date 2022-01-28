@@ -14,10 +14,23 @@
   font-size: 20px;
   letter-spacing: 5px;
   display: fixed;
+  text-align: center;
 }
 
 .navbar-nav li a:hover {
   color: #fc5c3c !important;
+}
+
+#home {
+  padding: 60px 0;
+}
+
+#about {
+  padding: 60px 0;
+}
+
+#portfolio {
+  padding: 60px 0;
 }
 
 .img-responsive {
@@ -26,7 +39,7 @@
 }
 
 #contact {
-  text-align: center justify;
+  padding: 60px 0;
 }
 
 .section-title {
@@ -40,6 +53,12 @@
   color: #033a49;
   padding: 60px 0;
   width: 100%;
+  height: auto;
+}
+
+.full-height {
+  height: 100%;
+  background-color: #fff5f0;
 }
 
 #home {
@@ -55,6 +74,10 @@ body {
   overflow-x: hidden;
 }
 
+.margin {
+  margin-bottom: 45px;
+}
+
 p {
   font-size: 16px;
 }
@@ -63,7 +86,6 @@ p {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
-    padding: 60px;
   }
 
   p {

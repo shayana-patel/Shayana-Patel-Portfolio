@@ -11,7 +11,7 @@ import Footer from './Footer'
 const App = () => {
   return (
     <> 
-      <div className='App'>
+      <div className='App full-height'>
       <Header />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
