@@ -31,12 +31,16 @@
   font-size: large;
 }
 
+#footer p {
+  padding: 15px 0;
+}
+
 #about {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 #portfolio {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .img-responsive {
@@ -45,7 +49,7 @@
 }
 
 #contact {
-  padding: 60px 0;
+  padding: 100px 0;
   height: 100vh;
 }
 
@@ -75,7 +79,7 @@ html, body {
 }
 
 #home {
-  padding: 70px 0;
+  padding: 80px 0;
   height: 100vh;
   margin-bottom: 60px;
 }
@@ -90,7 +94,7 @@ body {
 }
 
 .margin {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 
 p {
