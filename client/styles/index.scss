@@ -117,3 +117,32 @@ p {
     width: 80%;
   }
 }
+
+// .btn .btn-primary {
+//   background-color: #fff5f0;
+//   border-radius: 50%;
+
+// }
+
+.fa { 
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  // width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #033a49;
+  border-radius: 100%;
+  border: 2px #033a49 solid; 
+}
+
+.fa:hover {
+  color: #fc5c3c;
+  opacity: 0.9;
+  border-color: #fc5c3c;
+  box-shadow: 5px 10px 10px #fc5c3c62;
+}
+// .btn:hover {
+//   color: #fc940b;
+//   opacity: 0.9;  
+// }  

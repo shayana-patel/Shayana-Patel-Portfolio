@@ -13,16 +13,32 @@ const Contact = () => {
               You can reach me via email or find me on social networks. I would love to hear from you!
             </p>
           </div>
-          <div className='contact-links'>
-            <a href='mailto:shayana_patel@hotmail.com' title="Email Shayana">Email
-              {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ZflUSMAyHm6OzUA5SDAWELxe1T6sOE8aIg&usqp=CAU' alt='Email Shayana'></img> */}
+          <div className='social-links'>
+            <a
+              className="social-button"
+              href='mailto:shayana_patel@hotmail.com'
+              title="Email Shayana"
+              >
+                <i class="fa fa-envelope"></i>
             </a>
-            <a href='https://github.com/shayana-patel' target='_blank' title="Shayana's GitHub">GitHub
-              {/* <img src='https://vijaysutrave.com/github.515c4499.png' alt='github' /> */}
-            </a>
-            <a href='https://www.linkedin.com/in/shayana-patel-6367b9139/' target='_blank' title="Shayana's LinkedIn">LinkedIn
-              {/* <img src='https://w7.pngwing.com/pngs/93/587/png-transparent-linkedin-logo-linkedin-logo-computer-icons-business-symbol-linkedin-icon-miscellaneous-blue-angle-thumbnail.png' alt='linkedin'></img> */}
-            </a>
+
+            <a
+              className="social-button"
+              href="https://github.com/shayana-patel"
+              target="_blank" 
+              title="Shayana's GitHub"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+
+              <a
+              className="social-button"
+              href="https://www.linkedin.com/in/shayana-patel-6367b9139/"
+              target="_blank" 
+              title="Shayana's LinkedIn"
+              >
+                <i className="fa fa-linkedin"></i>
+              </a>
           </div>
         </div>
       </section>
