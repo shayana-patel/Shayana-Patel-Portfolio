@@ -23,6 +23,9 @@ const Nav = () => {
                 <Link to="/portfolio">PORTFOLIO</Link>
               </li>
               <li>
+                <a href="https://shayana-patel.github.io/" target="_blank">BLOG</a>
+              </li>
+              <li>
                 <Link to="/contact">CONTACT</Link>
               </li>
             </ul>
