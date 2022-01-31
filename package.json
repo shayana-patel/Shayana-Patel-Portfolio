@@ -13,7 +13,7 @@
     "lint": "eslint --ext .js,.jsx .",
     "test": "jest",
     "test:watch": "jest --noStackTrace --watchAll",
-    "build": "run-p build:client build:server",
+    "build": "run-p build:client",
     "build:client": "npm run webpack -- --mode production"
   },
   "keywords": [
