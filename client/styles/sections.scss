@@ -17,43 +17,29 @@
   width: 100%;
 }
 
+a {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #033a49;
+}
+
+a:hover {
+  text-decoration: #ec5002;
+}
+
 .project-description {
   padding: 0px;
 }
 
+
 .col-sm-4 {
   padding-top: 10px;
-  // margin: 2px 1px;
-  // border: 1px #fc5c3c solid;
 }
 
 .col-sm-4:hover{
-  box-shadow: 5px 5px 10px #fc5c3c62;
+  box-shadow: 5px 5px 10px #ec500262;
 }
 
-a {
-  text-decoration: none;
-  color: #033a49;
-  font-size: 20px;
-}
-
-a:hover {
-  color: #fc5c3c;
-}
-
-// a:hover {
-//   color: #fc5c3c;
-// }
-
-// .project-title {
-//   text-decoration: none;
-//   color: #fc5c3c;
-// }
-
-// .project-title a:hover {
-//   text-decoration: none;
-//   color: #fc5c3c;
-// }
 
 // CONTACT //
 
