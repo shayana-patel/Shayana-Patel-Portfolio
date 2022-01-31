@@ -37,16 +37,7 @@
   width: 100%;
   height: 100%;
   z-index: 999999;
-  // background-color: #0c0513;
-  // background-image: url(./Assets/pre.svg);
-  // background-repeat: no-repeat;
-  // background-position: center;
 }
-
-// .full-height {
-//   height: 100%;
-//   background-color: #fff5f0;
-// }
 
 html, body {
   height: 100%;
@@ -88,14 +79,6 @@ p {
   p {
     font-size: 1.2vw;
   }
-
-  // #about {
-  //   height: 100vh;
-  // }
-
-  // #portfolio {
-  //   height: 100vh;
-  // }
 }
 
 @media (max-width: 600px) {
@@ -121,13 +104,3 @@ p {
   border-color: #ec5002;
   box-shadow: 5px 10px 10px #fc5c3c62;
 }
-
-// a {
-//   text-decoration: none;
-//   color: #033a49;
-//   font-size: 20px;
-// }
-
-// a:hover {
-//   color: #fc5c3c;
-// }
