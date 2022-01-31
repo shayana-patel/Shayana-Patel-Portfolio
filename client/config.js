@@ -1,10 +1,10 @@
 const environments = {
   development: 'http://localhost:3000/api/v1',
   test: 'http://localhost:3333/api/v1',
-  production: '',
+  production: 'shayana-patel.netlify.app',
   integration: '',
   deployment: '',
-  build: ''
+  build: 'shayana-patel.netlify.app'
 }
 
 const env = process.env.NODE_ENV || 'development'
