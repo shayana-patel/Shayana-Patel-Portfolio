@@ -6,7 +6,7 @@ const Contact = () => {
       <section id='contact'>
         <div id='container'>
           <div className='margin section-title'>
-            <h1>Get in touch</h1>
+            <h1>Contact</h1>
           </div>
           <div className='section-body'>
             <p>
