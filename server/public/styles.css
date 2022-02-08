@@ -99,7 +99,7 @@ a:hover {
 
 #contact-section {
   padding-top: 90px;
-  height: 90vh;
+  padding-bottom: 20px;
 }
 
 .App {
@@ -126,7 +126,7 @@ html, body {
 #home {
   background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 100%);
   padding-top: 290px;
-  height: 100vh;
+  padding-bottom: 308px;
 }
 
 body {
