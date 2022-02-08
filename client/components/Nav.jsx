@@ -17,12 +17,10 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
               <li>
-                {/* <Link to="/about">ABOUT</Link> */}
-                <Link to="/#about">ABOUT</Link>
+                <Link to="/about">ABOUT</Link>
               </li>
               <li>
-                {/* <Link to="/portfolio">PORTFOLIO</Link> */}
-                <Link to="/#portfolio">PORTFOLIO</Link>
+                <Link to="/portfolio">PORTFOLIO</Link>
               </li>
               <li>
                 <a href="https://shayana-patel.github.io/" target="_blank">BLOG</a>

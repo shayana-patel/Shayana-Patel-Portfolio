@@ -5,7 +5,7 @@ const About = () => {
     <>
       <section id='about'>
         <div className="container-fluid bg-1 text-center">
-          <h1 className="margin section-title">About me</h1>
+          <h1 className="margin section-title">About Me</h1>
           <img src="./server/public/shayana-profile.png" id='profile-img' className="img-fluid margin" alt="Shayana profile photo"/>
           <h3>Full Stack Software Developer</h3>
           <p>

@@ -19,7 +19,7 @@ const Contact = () => {
               href='mailto:shayana_patel@hotmail.com'
               title="Email Shayana"
               >
-                <i class="fa fa-envelope"></i>
+                <i className="fa fa-envelope"></i>
             </a>
 
             <a

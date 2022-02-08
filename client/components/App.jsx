@@ -10,14 +10,14 @@ import Footer from './Footer'
 
 const App = () => {
   return (
-    <> 
+    <>
       <div className='App full-height'>
       <Header />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/#about" element={<About/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/#portfolio" element={<Portfolio/>}></Route>
+        <Route path="/portfolio" element={<Portfolio/>}></Route>
       </Routes>
       <Footer />
       </div>
