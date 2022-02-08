@@ -23,7 +23,7 @@
 }
 
 #footer {
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -80,9 +80,8 @@ a:hover {
   box-shadow: 5px 5px 10px #ec500262;
 }
 
-#contact {
-  padding: 100px 0;
-  height: 100vh;
+#contact-section {
+  padding: 20px 0;
 }
 
 .section-title {
@@ -166,6 +165,12 @@ p {
   opacity: 0.9;
   border-color: #ec5002;
   box-shadow: 5px 10px 10px #fc5c3c62;
+}
+
+hr {
+  color: #ec5002;
+  border: 10px #ec5002 solid;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=styles.css.map*/

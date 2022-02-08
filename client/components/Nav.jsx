@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import { HashLink } from 'react-router-hash-link'
 
@@ -16,7 +16,6 @@ const Nav = () => {
             </button>
             {/* <Link to='/' className="navbar-brand">SHAYANA PATEL</Link> */}
             <HashLink smooth to="/#home" className="navbar-brand">SHAYANA PATEL</HashLink>
-            {/* <a href="https://shayana-patel.netlify.app/" className="navbar-brand">SHAYANA PATEL</a> */}
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
@@ -30,7 +29,7 @@ const Nav = () => {
                 <a href="https://shayana-patel.github.io/" target="_blank">BLOG</a>
               </li>
               <li>
-                <Link to="/contact">CONTACT</Link>
+                <HashLink smooth to="/#contact">CONTACT</HashLink>
               </li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <section id='contact'>
+      <section id='contact-section'>
         <div id='container'>
           <div className='margin section-title'>
             <h1>Contact</h1>

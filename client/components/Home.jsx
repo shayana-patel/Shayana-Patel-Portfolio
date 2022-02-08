@@ -2,7 +2,7 @@ import React from 'react'
 
 import About from './About'
 import Portfolio from './Portfolio'
-// import Contact from './Contact'
+import Contact from './Contact'
 
 const Home = () => {
 
@@ -14,13 +14,17 @@ const Home = () => {
           <h2>Full Stack Software Developer</h2>
         </div>
       </section>
-
+      <hr/>
       <section id='about'>
         <About />
       </section>
-
+      <hr/>
       <section id='portfolio'>  
         <Portfolio />
+      </section>
+      <hr/>
+      <section id='contact'>
+        <Contact />
       </section>
       
     </>
