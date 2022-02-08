@@ -1,6 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-
 import { HashLink } from 'react-router-hash-link'
 
 const Nav = () => {
@@ -14,7 +12,6 @@ const Nav = () => {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            {/* <Link to='/' className="navbar-brand">SHAYANA PATEL</Link> */}
             <HashLink smooth to="/#home" className="navbar-brand nav-link">SHAYANA PATEL</HashLink>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
