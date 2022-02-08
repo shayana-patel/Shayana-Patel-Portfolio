@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { HashLink } from 'react-router-hash-link'
+
 const Nav = () => {
   return (
     <>
@@ -12,15 +14,17 @@ const Nav = () => {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link to='/' className="navbar-brand">SHAYANA PATEL</Link>
+            {/* <Link to='/' className="navbar-brand">SHAYANA PATEL</Link> */}
+            <HashLink smooth to="/#home" className="navbar-brand">SHAYANA PATEL</HashLink>
+            {/* <a href="https://shayana-patel.netlify.app/" className="navbar-brand">SHAYANA PATEL</a> */}
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
               <li>
-                <Link to="/about">ABOUT</Link>
+                <HashLink smooth to="/#about">ABOUT</HashLink>
               </li>
               <li>
-                <Link to="/portfolio">PORTFOLIO</Link>
+                <HashLink smooth to="/#portfolio">PORTFOLIO</HashLink>
               </li>
               <li>
                 <a href="https://shayana-patel.github.io/" target="_blank">BLOG</a>
