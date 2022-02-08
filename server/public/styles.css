@@ -48,7 +48,6 @@
 #about-section {
   padding-top: 90px;
   padding-bottom: 20px;
-  height: 100vh;
 }
 
 #portfolio {
@@ -56,7 +55,8 @@
 }
 
 #portfolio-section {
-  padding: 90px;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
 
 .img-responsive {
