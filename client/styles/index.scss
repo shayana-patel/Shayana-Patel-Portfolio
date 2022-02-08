@@ -43,10 +43,11 @@ html, body {
   height: 100%;
 }
 
-#home { 
-  padding-top: 250px;
+#home {
+  background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 100%);
+  padding-top: 290px;
   height: 100vh;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 }
 
 body {
@@ -105,8 +106,3 @@ p {
   box-shadow: 5px 10px 10px #fc5c3c62;
 }
 
-hr {
-  color: #ec5002;
-  border: 10px #ec5002 solid;
-  width: 100vw;
-}

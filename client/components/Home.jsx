@@ -14,15 +14,15 @@ const Home = () => {
           <h2>Full Stack Software Developer</h2>
         </div>
       </section>
-      <hr/>
+
       <section id='about'>
         <About />
       </section>
-      <hr/>
+
       <section id='portfolio'>  
         <Portfolio />
       </section>
-      <hr/>
+
       <section id='contact'>
         <Contact />
       </section>

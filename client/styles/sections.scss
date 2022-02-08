@@ -1,10 +1,17 @@
 // ABOUT //
- #about-section {
+#about {
+  background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 30%);
+}
+
+#about-section {
    padding-top: 90px;
    height: 100vh;
  }
 
 // PORTFOLIO //
+#portfolio {
+  background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 30%);
+}
 
 #portfolio-section {
   padding: 90px;
@@ -49,13 +56,17 @@ a:hover {
 
 
 // CONTACT //
+#contact {
+  background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 50%);
+}
+
 
 #contact-section {  
   padding: 20px 0;
   // height: 60vh;
 }
 
-.section-title {
-  text-decoration: underline #fc5c3c;
-}
+// .section-title {
+//   text-decoration: underline #fc5c3c;
+// }
 
