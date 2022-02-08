@@ -15,21 +15,21 @@ const Nav = () => {
               <span className="icon-bar"></span>
             </button>
             {/* <Link to='/' className="navbar-brand">SHAYANA PATEL</Link> */}
-            <HashLink smooth to="/#home" className="navbar-brand">SHAYANA PATEL</HashLink>
+            <HashLink smooth to="/#home" className="navbar-brand nav-link">SHAYANA PATEL</HashLink>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
-              <li>
-                <HashLink smooth to="/#about">ABOUT</HashLink>
+              <li className='nav-item'>
+                <HashLink smooth to="/#about" className="nav-link">ABOUT</HashLink>
               </li>
-              <li>
-                <HashLink smooth to="/#portfolio">PORTFOLIO</HashLink>
+              <li className='nav-item'>
+                <HashLink smooth to="/#portfolio" className="nav-link">PORTFOLIO</HashLink>
               </li>
-              <li>
+              <li className='nav-item'>
                 <a href="https://shayana-patel.github.io/" target="_blank">BLOG</a>
               </li>
-              <li>
-                <HashLink smooth to="/#contact">CONTACT</HashLink>
+              <li className='nav-item'>
+                <HashLink smooth to="/#contact" className="nav-link">CONTACT</HashLink>
               </li>
             </ul>
           </div>
