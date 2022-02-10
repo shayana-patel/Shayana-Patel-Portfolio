@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="container-fluid bg-3 text-center">    
           <h1 className="margin section-title">Portfolio</h1><br />
           <div className="row">
-            <div className="col-sm-4"> 
+            <div className="col-sm-3"> 
               <img src="./server/public/reminisce.PNG" className="img-responsive margin" alt="Reminisce" />
               <a href="http://reminiscetheapp.herokuapp.com/" target='_blank' className='project-title'>Reminisce</a>
               <p className='project-description'>
@@ -17,7 +17,7 @@ const Portfolio = () => {
               </p>
             </div>  
 
-            <div className="col-sm-4"> 
+            <div className="col-sm-3"> 
               <img src="./server/public/polisay.PNG" className="img-responsive margin" alt="PoliSay" />
               <a href="http://polisay.herokuapp.com/" target='_blank' className='project-title'>PoliSay</a>
               <p className='project-description'>
@@ -31,7 +31,7 @@ const Portfolio = () => {
               </p>
             </div>
             
-            <div className="col-sm-4"> 
+            <div className="col-sm-3"> 
               <img src="./server/public/pupparazzi.PNG" className="img-responsive margin" alt="Pupparazzi" />
               <a href="https://perfect-pup-pals.herokuapp.com/" target='_blank' className='project-title'>Pupparazzi</a>
               <p className='project-description'>
@@ -41,7 +41,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <img src="./server/public/Meteorsweeper.PNG" className="img-responsive margin" alt="Meterosweeper" />
               <a href="https://shayana-patel.github.io/minesweeper/" target='_blank'className='project-title'>Meteorsweeper</a>
               <p className='project-description'>
@@ -51,25 +51,23 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="col-sm-4"> 
+            <div className="col-sm-3"> 
               <img src="./server/public/js-carnival.PNG" className="img-responsive margin" alt="JavaScript Carnival" />
               <a href="https://shayana-patel.github.io/javascript-carnival/" target='_blank' className='project-title'>JavaScript Carnival</a>
               <p className='project-description'>
                 This project was completed during Sprint 5 of EDA Foundations. There are three games in the carnival: Inflate the Unicorn, Wack-a-Mole, and Dress the Clown. This aim was to get the games to work using our coding knowledge that we had learnt through our 5 weeks of EDA Foundations.
-                <br/>
+                <br/> 
                 Built using JavaScript, HTML and CSS.
+                <br/>
+                <br/>
+                Inflate the unicorn: These poor unicorns have balloons for horns. Inflate the balloons to get the horns to point up.
+                <br/>
+                <br/>
+                Whack-a-Mole: The carnival classic brought to life right inside your very own web browser. Where did all the moles go?
+                <br/>
+                <br/>
+                Dress the Clown: A dress-up game where you make a clown look fancy!
               </p>
-              <ul>
-                <li>
-                  Inflate the unicorn: These poor unicorns have balloons for horns. Inflate the balloons to get the horns to point up.
-                </li>
-                <li>
-                  Whack-a-Mole: The carnival classic brought to life right inside your very own web browser. Where did all the moles go?
-                </li>
-                <li>
-                  Dress the Clown: A dress-up game where you make a clown look fancy!
-                </li>
-              </ul>
             </div>
           </div>
         </div>
