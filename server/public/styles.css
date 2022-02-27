@@ -19,11 +19,11 @@
 }
 
 .navbar-nav li a:hover {
-  color: #ec5002 !important;
+  color: #00a2e2 !important;
 }
 
 .navbar-brand:hover {
-  color: #ec5002 !important;
+  color: #00a2e2 !important;
 }
 
 #footer {
@@ -42,20 +42,15 @@
 }
 
 #about {
-  background: #f9e6c3;
-}
-
-#about-section {
-  padding-top: 90px;
-  padding-bottom: 20px;
+  background: #cec7fe;
+  padding-bottom: 10px;
+  color: #033644;
 }
 
 #portfolio {
-  background: #ecd3f7;
-}
-
-#portfolio-section {
-  padding-top: 90px;
+  background: #6f0f37;
+  color: #dfcef7;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -67,11 +62,20 @@
 a {
   font-size: 20px;
   text-decoration: underline;
-  color: #033a49;
+  color: #033644;
 }
 
-a:hover {
-  text-decoration: #ec5002;
+button {
+  background-color: #cec7fe;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #033644;
+}
+
+button:hover {
+  color: #00a2e2;
+  box-shadow: 5px 5px 10px #00a2e2;
 }
 
 .project-description {
@@ -90,15 +94,17 @@ a:hover {
 .col-sm-3 {
   margin: 10px 5px;
   padding-top: 10px;
+  padding-bottom: 10px;
   border: 2px #fff5f0 solid;
 }
 
 .col-sm-3:hover {
-  box-shadow: 5px 5px 10px #583468;
+  box-shadow: 5px 5px 10px #deb7ee;
 }
 
 #contact {
-  background: #cfdcef;
+  background: #cec7fe;
+  color: #033644;
 }
 
 #contact-section {
@@ -108,9 +114,8 @@ a:hover {
 
 .App {
   text-align: center;
-  background-color: #fff5f0;
+  background-color: #dfcef7;
   font-family: "Josefin Sans", sans-serif;
-  color: #033a49;
   position: relative;
 }
 
@@ -128,9 +133,10 @@ html, body {
 }
 
 #home {
-  background: #fbcaa0;
-  padding-top: 290px;
-  padding-bottom: 308px;
+  background: url(126436be0ed747b89136.svg);
+  padding-top: 200px;
+  padding-bottom: 350px;
+  color: #dfcef7;
 }
 
 body {
@@ -165,6 +171,10 @@ p {
 @media (max-width: 600px) {
   #profile-img {
     width: 80%;
+  }
+
+  #home {
+    padding-bottom: 150px;
   }
 }
 .fa {

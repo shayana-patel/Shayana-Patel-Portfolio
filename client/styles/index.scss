@@ -24,9 +24,10 @@
 
 .App {
   text-align: center;
-  background-color: #fff5f0;
+  // background-color: #fff5f0;
+  background-color: #dfcef7;
   font-family: "Josefin Sans", sans-serif;
-  color: #033a49;
+  // color: #033a49;
   position: relative;
 }
 
@@ -44,12 +45,12 @@ html, body {
 }
 
 #home {
-  background: #fbcaa0;
-  // background: linear-gradient(180deg, #fcbaa0 0%, #fff5f0 100%);
-  padding-top: 290px;
-  padding-bottom: 308px;
-  // height: 100vh;
-  // margin-bottom: 60px;
+  background: url(/server/public/wave-haikei-average-berry-background-top.svg);
+  // background-size: cover;
+  // background: #fbcaa0;
+  padding-top: 200px;
+  padding-bottom: 350px;
+  color: #dfcef7;
 }
 
 body {
@@ -77,8 +78,7 @@ p {
     -webkit-flex-direction: column;
     flex-direction: column;
     // padding: 60px;
-  } 
-
+  }
   p {
     font-size: 1.2vw;
   }
@@ -87,6 +87,9 @@ p {
 @media (max-width: 600px) {
   #profile-img {
     width: 80%;
+  }
+  #home {
+    padding-bottom: 150px; 
   }
 }
 
