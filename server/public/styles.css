@@ -42,16 +42,20 @@
 }
 
 #about {
-  background: #cec7fe;
+  background: #e0dbff;
   padding-bottom: 10px;
   color: #033644;
 }
 
 #portfolio {
   background: #6f0f37;
-  color: #dfcef7;
+  color: #e0dbff;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.project-title {
+  font-size: 25px;
 }
 
 .img-responsive {
@@ -61,21 +65,23 @@
 
 a {
   font-size: 20px;
-  text-decoration: underline;
-  color: #033644;
-}
-
-button {
-  background-color: #cec7fe;
-  border: none;
-  font-size: 20px;
   text-decoration: none;
   color: #033644;
 }
 
-button:hover {
+a:hover {
   color: #00a2e2;
-  box-shadow: 5px 5px 10px #00a2e2;
+}
+
+#project-launch {
+  color: #6f0f37;
+  border-radius: 3px;
+  background: #e0dbff;
+  border: 2px #e0dbff solid;
+}
+
+#project-launch:hover {
+  color: #00a2e2;
 }
 
 .project-description {
@@ -88,7 +94,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .col-sm-3 {
@@ -96,14 +102,17 @@ button:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 2px #fff5f0 solid;
+  border-radius: 5px;
 }
 
 .col-sm-3:hover {
-  box-shadow: 5px 5px 10px #deb7ee;
+  transform: scale(1.02) !important;
+  transition: all 0.5s ease 0s !important;
+  box-shadow: 0px 3px 3px 6px #deb7ee7e;
 }
 
 #contact {
-  background: #cec7fe;
+  background: #e0dbff;
   color: #033644;
 }
 
@@ -114,8 +123,9 @@ button:hover {
 
 .App {
   text-align: center;
-  background-color: #dfcef7;
+  background: #e0dbff;
   font-family: "Josefin Sans", sans-serif;
+  color: #033a49;
   position: relative;
 }
 
@@ -133,16 +143,15 @@ html, body {
 }
 
 #home {
-  background: url(126436be0ed747b89136.svg);
+  background: url(3f1039106cb08db3d64b.svg);
   padding-top: 200px;
-  padding-bottom: 350px;
-  color: #dfcef7;
+  padding-bottom: 250px;
+  color: #e0dbff;
 }
 
 body {
   font: 20px "Josefin Sans", sans-serif;
   line-height: 1.8;
-  color: #fff5f0;
   margin: 0;
   padding: 0;
   overflow-x: hidden;

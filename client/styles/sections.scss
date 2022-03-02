@@ -1,31 +1,22 @@
 // ABOUT //
 #about {
-  // background: url(/server/public/wave-haikei-average-lilac-background-top.svg);
-  background: #cec7fe;
+  background: #e0dbff;
   padding-bottom: 10px;
-  // background: #f9e6c3;
   color:#033644;
 
 }
 
-// #about-section {
-//    padding-bottom: 300px;
-//  }
-
 // PORTFOLIO //
 #portfolio {
   background: #6f0f37;
-  // background: url(/server/public/wave-haikei-average-berry-background-top.svg);
-  // background: #ecd3f7;
-  color: #dfcef7;
+  color: #e0dbff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-// #portfolio-section {
-//   padding-top: 90px;
-//   padding-bottom: 20px;
-// }
+.project-title {
+  font-size: 25px;
+}
 
 .img-responsive {
   display: block;
@@ -34,25 +25,23 @@
 
 a {
   font-size: 20px;
-  text-decoration: underline;
-  color: #033644;
-}
-
-// a:hover {
-//   // text-decoration: #00a2e2;
-//   text-decoration: #6f0f37;
-// }
-
-button {
-  background-color: #cec7fe;
-  border: none;
-  font-size: 20px;
   text-decoration: none;
   color: #033644;
 }
-button:hover {
+
+a:hover {
   color: #00a2e2;
-  box-shadow: 5px 5px 10px #00a2e2;
+}
+
+#project-launch {
+  color: #6f0f37;
+  border-radius: 3px;
+  background: #e0dbff;
+  border: 2px #e0dbff solid;
+}
+
+#project-launch:hover {
+  color: #00a2e2;
 }
 
 .project-description {
@@ -65,26 +54,26 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-
 
 .col-sm-3 {
   margin: 10px 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 2px #fff5f0 solid;
+  border-radius: 5px; 
 }
 
 .col-sm-3:hover{
-  box-shadow: 5px 5px 10px #deb7ee;
+  transform: scale(1.02) !important;
+  transition: all 0.5s ease 0s !important;
+  box-shadow: 0px 3px 3px 6px #deb7ee7e;
 }
-
 
 // CONTACT //
 #contact { 
-  // background: #cfdcef;
-  background: #cec7fe;
+  background: #e0dbff;
   color: #033644;
 }
 
@@ -92,8 +81,4 @@ button:hover {
   padding-top: 90px;
   padding-bottom: 20px;
 }
-
-// .section-title {
-//   text-decoration: underline #fc5c3c;
-// }
 

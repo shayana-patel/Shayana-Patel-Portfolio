@@ -24,10 +24,10 @@
 
 .App {
   text-align: center;
-  // background-color: #fff5f0;
-  background-color: #dfcef7;
+  // background-color: #dfcef7;
+  background: #e0dbff;
   font-family: "Josefin Sans", sans-serif;
-  // color: #033a49;
+  color: #033a49;
   position: relative;
 }
 
@@ -45,18 +45,20 @@ html, body {
 }
 
 #home {
-  background: url(/server/public/wave-haikei-average-berry-background-top.svg);
+  background: url(/server/public/wave-haikei-1500x600-6f0f37xe0dbff.svg);
+  // background: url(/server/public/wave-haikei-average-berry-background-top.svg);
   // background-size: cover;
   // background: #fbcaa0;
   padding-top: 200px;
-  padding-bottom: 350px;
-  color: #dfcef7;
+  padding-bottom: 250px;
+  // color: #dfcef7;
+  color: #e0dbff;
 }
 
 body {
   font: 20px 'Josefin Sans', sans-serif;
   line-height: 1.8;
-  color: #fff5f0;
+  // color: #fff5f0;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
