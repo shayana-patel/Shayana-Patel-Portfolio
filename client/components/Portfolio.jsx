@@ -11,7 +11,7 @@ const Portfolio = () => {
               <h2 className="project-title">Reminise</h2>
               <img src="./server/public/reminisce.PNG" className="img-responsive margin" alt="Reminisce web-app preview" />
               <p className='project-description'>
-                My first solo full-stack project. Reminisce is a personal online memory-box of concerts I have been to and holidays that I have been on. I began this project during my time at Enspiral Dev Academy and was able to utilize all the knowledge and experience that I had gained during the bootcamp to build this app.
+                Reminisce is a personal online memory-box of concerts and holiday memories. I began this project during my time at Enspiral Dev Academy and was able to utilize all the knowledge and experience that I had gained during the bootcamp to build this app. While creating this app I was able to create a database of my concert and travel data and make API calls from the client-side using Redux to retrieve the server-side information and display it on the webpage using React components. 
                 <br/>
                 Built using React, Redux, Express.js, Knex.js. 
               </p>
