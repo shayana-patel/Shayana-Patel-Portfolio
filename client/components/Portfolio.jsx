@@ -36,6 +36,19 @@ const Portfolio = () => {
                 <button id="project-launch">Launch Project</button>
               </a>
             </div>
+
+            <div className="col-sm-3">
+              <h2 className="project-title">The Boredom Buster</h2>
+              <img src="./server/public/boredom-buster.PNG" className="img-responsive margin" alt="Boredom Buster web-app preview" />
+              <p className='project-description'>
+                A random activity generator for when you don't know what to do. I used <span><a href="https://www.boredapi.com" target="_blank">The Bored API</a></span> to create this app. I created the functions that make the API calls in client/api.js, and called those functions within the React component Generator.jsx. The creation of this app allowed me to practice using external web APIs.
+                <br/>
+                Built using JavaScript - React, Node.js Express.js.
+              </p>
+              <a href="https://the-boredom-buster.netlify.app/" target='_blank' className='project-title'>
+                <button id="project-launch">Launch Project</button>
+              </a>
+            </div>
             
             <div className="col-sm-3">
               <h2 className="project-title">Pupparazzi</h2>
